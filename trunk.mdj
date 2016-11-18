@@ -102201,7 +102201,7 @@
 											"containerExtending": false,
 											"left": 0,
 											"top": -16,
-											"width": 80.9072265625,
+											"width": 81,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -102515,7 +102515,7 @@
 											"containerExtending": false,
 											"left": 0,
 											"top": -8,
-											"width": 80.9072265625,
+											"width": 81,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -102939,7 +102939,7 @@
 											"containerExtending": false,
 											"left": -160,
 											"top": 0,
-											"width": 80.9072265625,
+											"width": 81,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -103324,7 +103324,7 @@
 							"containerExtending": false,
 							"left": 80,
 							"top": 392,
-							"width": 240.0400390625,
+							"width": 249,
 							"height": 50,
 							"autoResize": false,
 							"text": "Home->商机列表->商机主页->联系人\nstartTask() ：获取商机联系人",
@@ -103352,7 +103352,7 @@
 								"$ref": "AAAAAAFYdVUOR6UcULE="
 							},
 							"lineStyle": 1,
-							"points": "343:462;280:442"
+							"points": "343:462;283:442"
 						},
 						{
 							"_type": "UMLClassView",
@@ -103440,7 +103440,7 @@
 											"containerExtending": false,
 											"left": 0,
 											"top": -4,
-											"width": 80.9072265625,
+											"width": 81,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -103795,7 +103795,7 @@
 							"containerExtending": false,
 							"left": 744,
 							"top": 376,
-							"width": 233.43994140625,
+							"width": 249,
 							"height": 50,
 							"autoResize": false,
 							"text": "Home->客户列表->客户主页->联系人",
@@ -103823,7 +103823,7 @@
 								"$ref": "AAAAAAFYdVWE1qVhUOQ="
 							},
 							"lineStyle": 1,
-							"points": "718:455;793:426"
+							"points": "721:455;798:426"
 						},
 						{
 							"_type": "UMLClassView",
@@ -103886,7 +103886,7 @@
 											"containerExtending": false,
 											"left": 653,
 											"top": 687,
-											"width": 41.919921875,
+											"width": 42,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -103911,7 +103911,7 @@
 											"containerExtending": false,
 											"left": 560,
 											"top": -32,
-											"width": 80.9072265625,
+											"width": 81,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -103955,7 +103955,7 @@
 									"containerExtending": false,
 									"left": 648,
 									"top": 680,
-									"width": 51.919921875,
+									"width": 52,
 									"height": 25,
 									"autoResize": false,
 									"stereotypeLabel": {
@@ -103991,7 +103991,7 @@
 									"containerExtending": false,
 									"left": 648,
 									"top": 705,
-									"width": 51.919921875,
+									"width": 52,
 									"height": 10,
 									"autoResize": false
 								},
@@ -104015,7 +104015,7 @@
 									"containerExtending": false,
 									"left": 648,
 									"top": 715,
-									"width": 51.919921875,
+									"width": 52,
 									"height": 10,
 									"autoResize": false
 								},
@@ -104079,7 +104079,7 @@
 							"containerExtending": false,
 							"left": 648,
 							"top": 680,
-							"width": 51.919921875,
+							"width": 52,
 							"height": 45,
 							"autoResize": false,
 							"stereotypeDisplay": "label",
@@ -104195,7 +104195,7 @@
 											"containerExtending": false,
 											"left": -160,
 											"top": -48,
-											"width": 80.9072265625,
+											"width": 81,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -104619,7 +104619,7 @@
 											"containerExtending": false,
 											"left": 32,
 											"top": 0,
-											"width": 80.9072265625,
+											"width": 81,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -105527,6 +105527,27 @@
 					"isFinalSpecialization": false,
 					"isLeaf": false,
 					"isActive": false
+				}
+			],
+			"visibility": "public"
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFYdta513nHWGU=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model8",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFYdta513nImOQ=",
+					"_parent": {
+						"$ref": "AAAAAAFYdta513nHWGU="
+					},
+					"name": "test",
+					"visible": true,
+					"defaultDiagram": false
 				}
 			],
 			"visibility": "public"
