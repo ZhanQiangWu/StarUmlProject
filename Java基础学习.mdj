@@ -3371,7 +3371,7 @@
 							"width": 649,
 							"height": 57,
 							"autoResize": false,
-							"text": "容器类对象在调用remove、contains等方法时需要比较对象是否相等，这会涉及到对象类型的equals方法和\nhashCode方法；对于自定义的类型，需要重写equals和hashCode方法以实现自定义的对象相等规则。\n       注意：相等的对象应该具有相等的hash codes\n",
+							"text": "容器类对象在调用remove、contains等方法时需要比较对象是否相等，这会涉及到对象类型的equals方法和\nhashCode方法；对于自定义的类型，需要重写equals和hashCode方法以实现自定义的对象相等规则。\n       \n",
 							"wordWrap": true
 						},
 						{
@@ -3394,7 +3394,76 @@
 							"width": 609,
 							"height": 425,
 							"autoResize": false,
-							"text": "class Name{\n    private String firstName,lastName;\n    public Name(String firstName,String lastName){\n        this.firstName = firstName;\n        this.lastName = lastName;\n    }\n\n    public boolean equals(Object obj){\n        if (obj instanceof Name){\n            Name name = (Name) obj;\n            return (firstName.equals(name.firstName))&&(lastName.equals(name.lastName));\n        }\n        return super.equals(obj);\n    }\n\n    public int hashCode(){\n        return firstName.hashCode();\n    }\n\n    public String getFirstName() {\n        return firstName;\n    }\n\n    public String getLastName() {\n        return lastName;\n    }\n\n    @Override\n    public String toString() {\n        return firstName + \" \" + lastName;\n    }\n}",
+							"text": "class Name{\n    private String firstName,lastName;\n    public Name(String firstName,String lastName){\n        this.firstName = firstName;\n        this.lastName = lastName;\n    }\n\n    public boolean equals(Object obj){\n        if (obj instanceof Name){\n            Name name = (Name) obj;\n            return (firstName.equals(name.firstName))&&(lastName.equals(name.lastName));\n        }\n        return super.equals(obj);\n    }\n\n    public int hashCode(){\n        return firstName.hashCode()+lastName.hashCode();\n    }\n\n    public String getFirstName() {\n        return firstName;\n    }\n\n    public String getLastName() {\n        return lastName;\n    }\n\n    @Override\n    public String toString() {\n        return firstName + \" \" + lastName;\n    }\n}",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAFdUJrv6BT97Hg=",
+							"_parent": {
+								"$ref": "AAAAAAFdUGolIRMTkLI="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#dcc6bb",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 80,
+							"top": 1048,
+							"width": 587.72802734375,
+							"height": 115,
+							"autoResize": false,
+							"text": "Iterator接口\n。所有实现了Collection接口的容器类都有一个iterator方法用以返回一个实现了Iterator接口的对象。\n。Iterator对象称作迭代器，用以方便的实现对容器内元素的遍历操作。\n。Iterator接口定义了如下方法：\n    boolean hasNext(); //判断游标右边是否有元素\n    Object next(); //返回游标右边的元素并将游标移动到下一个位置\n    void remove(); //删除游标左面的元素，在执行完next之后该操作只能执行一次",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFdVfOtq5ULm3U=",
+							"_parent": {
+								"$ref": "AAAAAAFdUGolIRMTkLI="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#f90303",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 88,
+							"top": 536,
+							"width": 305,
+							"height": 38,
+							"autoResize": false,
+							"text": "注意：相等的对象应该具有相等的hash codes",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAFdVgHqOJUSwSQ=",
+							"_parent": {
+								"$ref": "AAAAAAFdUGolIRMTkLI="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#dcc6bb",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 80,
+							"top": 1192,
+							"width": 599.22998046875,
+							"height": 153,
+							"autoResize": false,
+							"text": "List接口\n。List接口是Collection的子接口，实现List接口的容器类中的元素是有顺序的，而且可以重复\n。List容器中的元素都对应一个整数型的序号记载其在容器中的位置，可以根据序号存取容器中的元素\n",
 							"wordWrap": true
 						}
 					]
