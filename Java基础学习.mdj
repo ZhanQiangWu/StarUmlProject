@@ -3751,6 +3751,52 @@
 				}
 			],
 			"visibility": "public"
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFde+ZbGuu3gnM=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "初始化与清理",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFde+ZbG+u4b2I=",
+					"_parent": {
+						"$ref": "AAAAAAFde+ZbGuu3gnM="
+					},
+					"name": "初始化与清理",
+					"visible": true,
+					"defaultDiagram": false,
+					"ownedViews": [
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAFde+cjAuu+AT4=",
+							"_parent": {
+								"$ref": "AAAAAAFde+ZbG+u4b2I="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#dcc6bb",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 160,
+							"top": 984,
+							"width": 879.4853515625,
+							"height": 233,
+							"autoResize": false,
+							"text": "静态初始化：\n静态初始化只有在必要的时刻才进行。如果不创建Table对象，也不引用Table.bowl1或Table.bowl2,那么静态的bowl1 和 bowl2永远也不会被创建。只有在第一个Table对象被创建（或者第一次访问静态数据）的时候，他们才会被初始化。此后，静态对象不会再被初始化。\n--\nclass Table {\n  static Bowl bowl1 = new Bowl(1);\n  Table() {\n    print(\"Table()\");\n    bowl2.f1(1);\n  }\n  void f2(int marker) {\n    print(\"f2(\" + marker + \")\");\n  }\n  static Bowl bowl2 = new Bowl(2);\n}",
+							"wordWrap": true
+						}
+					]
+				}
+			],
+			"visibility": "public"
 		}
 	]
 }
