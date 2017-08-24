@@ -1905,6 +1905,62 @@
 											"text": "+lift(operator: Operator): Observable",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFeDKM4amYHcgY=",
+											"_parent": {
+												"$ref": "AAAAAAFah73NfsHj6sA="
+											},
+											"model": {
+												"$ref": "AAAAAAFeDKM3+GYEkj0="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 1005,
+											"top": 1104,
+											"width": 304.5732421875,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+flatMap(Func1 func): Observable",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFeDKlXtmcCFMc=",
+											"_parent": {
+												"$ref": "AAAAAAFah73NfsHj6sA="
+											},
+											"model": {
+												"$ref": "AAAAAAFeDKlXiGb/Gxw="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 1005,
+											"top": 1119,
+											"width": 304.5732421875,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+merge(Observable source): Observable<T>",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
 										}
 									],
 									"visible": true,
@@ -1919,7 +1975,7 @@
 									"left": 1000,
 									"top": 1024,
 									"width": 314.5732421875,
-									"height": 83,
+									"height": 113,
 									"autoResize": false
 								},
 								{
@@ -1983,7 +2039,7 @@
 							"left": 1000,
 							"top": 976,
 							"width": 314.5732421875,
-							"height": 131,
+							"height": 161,
 							"autoResize": false,
 							"stereotypeDisplay": "label",
 							"showVisibility": true,
@@ -2057,7 +2113,7 @@
 								"$ref": "AAAAAAFah73NfcHca44="
 							},
 							"lineStyle": 1,
-							"points": "999:981;989:977"
+							"points": "999:984;983:977"
 						},
 						{
 							"_type": "UMLInterfaceView",
@@ -4574,7 +4630,7 @@
 								"$ref": "AAAAAAFah8zL/8PrSP4="
 							},
 							"lineStyle": 1,
-							"points": "984:1049;999:1049"
+							"points": "984:1057;999:1057"
 						},
 						{
 							"_type": "UMLInterfaceView",
@@ -6203,8 +6259,8 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 1399,
-									"top": 878,
+									"left": 1409,
+									"top": 880,
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -6236,8 +6292,8 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 1392,
-									"top": 865,
+									"left": 1401,
+									"top": 867,
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -6269,7 +6325,7 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 1414,
+									"left": 1424,
 									"top": 905,
 									"width": 0,
 									"height": 13,
@@ -6302,8 +6358,8 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 1287,
-									"top": 943,
+									"left": 1305,
+									"top": 942,
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -6335,7 +6391,7 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 1282,
+									"left": 1300,
 									"top": 930,
 									"width": 0,
 									"height": 13,
@@ -6368,8 +6424,8 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 1296,
-									"top": 969,
+									"left": 1315,
+									"top": 968,
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -6402,7 +6458,7 @@
 									"containerChangeable": false,
 									"containerExtending": false,
 									"left": 1513,
-									"top": 815,
+									"top": 817,
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -6435,7 +6491,7 @@
 									"containerChangeable": false,
 									"containerExtending": false,
 									"left": 1504,
-									"top": 805,
+									"top": 807,
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -6468,7 +6524,7 @@
 									"containerChangeable": false,
 									"containerExtending": false,
 									"left": 1530,
-									"top": 837,
+									"top": 838,
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -6547,7 +6603,7 @@
 								"$ref": "AAAAAAFah73NfcHca44="
 							},
 							"lineStyle": 1,
-							"points": "1272:975;1543:822",
+							"points": "1291:975;1543:823",
 							"stereotypeDisplay": "label",
 							"showVisibility": true,
 							"showProperty": true,
@@ -11453,6 +11509,102 @@
 									"type": {
 										"$ref": "AAAAAAFah73NfcHa1ik="
 									},
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "return"
+								}
+							],
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFeDKM3+GYEkj0=",
+							"_parent": {
+								"$ref": "AAAAAAFah73NfcHa1ik="
+							},
+							"name": "flatMap",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFeDKP6DmaSAzY=",
+									"_parent": {
+										"$ref": "AAAAAAFeDKM3+GYEkj0="
+									},
+									"name": "Func1 func",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "in"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFeDKP6D2aTNoI=",
+									"_parent": {
+										"$ref": "AAAAAAFeDKM3+GYEkj0="
+									},
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": {
+										"$ref": "AAAAAAFah73NfcHa1ik="
+									},
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "return"
+								}
+							],
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFeDKlXiGb/Gxw=",
+							"_parent": {
+								"$ref": "AAAAAAFah73NfcHa1ik="
+							},
+							"name": "merge",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFeDKldl2czHZw=",
+									"_parent": {
+										"$ref": "AAAAAAFeDKlXiGb/Gxw="
+									},
+									"name": "Observable source",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "in"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFeDKldl2c0q+w=",
+									"_parent": {
+										"$ref": "AAAAAAFeDKlXiGb/Gxw="
+									},
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "Observable<T>",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
