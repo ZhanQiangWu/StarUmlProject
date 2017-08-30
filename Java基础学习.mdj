@@ -25524,6 +25524,29 @@
 							"autoResize": false,
 							"text": "泛型方法：\n。是否拥有泛型方法，与其所在的类是否是泛型没有关系\n--\n。泛型方法使得该方法能够独立于类而产生变化。以下是一个指导原则：\n无论何时，只要你能做到，你就应该尽量使用泛型方法。也就是说，如果使用泛型方法可以取代将整个类泛型化，那么就应该\n只使用泛型方法，因为它可以使事情更加清楚明白。另外，对于一个static的方法而言，无法访问泛型类的类型参数，所以，\n如果static方法需要使用泛型能力，就必须使其成为泛型方法。\n-\n。定义泛型方法，只需将泛型参数列表置于返回值之前\npublic <T> void f(T x){\n\n}\n\n",
 							"wordWrap": true
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAFeNV2b8ESQEyM=",
+							"_parent": {
+								"$ref": "AAAAAAFeIWp8jca0XSo="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#dcc6bb",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 352,
+							"top": 616,
+							"width": 737,
+							"height": 185,
+							"autoResize": false,
+							"text": "。泛型可以应用于内部类和匿名内部类",
+							"wordWrap": true
 						}
 					]
 				}
